@@ -1,0 +1,115 @@
+[
+    {
+        "Addition": 2,
+        "Subtraction": 0,
+        "Multiplication": 1,
+        "Division": 1.0
+    }
+
+    {
+        "Addition": 8,
+        "Subtraction": 0,
+        "Multiplication": 16,
+        "Division": 1.0
+    }
+
+    {
+        "Addition": 14,
+        "Subtraction": 0,
+        "Multiplication": 49,
+        "Division": 1.0
+    }
+
+    {
+        "Addition": 16,
+        "Subtraction": 0,
+        "Multiplication": 64,
+        "Division": 1.0
+    }
+
+    {
+        "Addition": 10,
+        "Subtraction": 0,
+        "Multiplication": 25,
+        "Division": 1.0
+    }
+]
+[
+    {
+        "Addition": 2,
+        "Subtraction": 0,
+        "Multiplication": 1,
+        "Division": 1.0
+    }
+][
+    {
+        "Addition": 24,
+        "Subtraction": 20,
+        "Multiplication": 44,
+        "Division": 11.0
+    }
+][
+    {
+        "Addition": 36,
+        "Subtraction": 30,
+        "Multiplication": 99,
+        "Division": 11.0
+    }
+][
+    {
+        "Addition": 48,
+        "Subtraction": 40,
+        "Multiplication": 176,
+        "Division": 11.0
+    }
+][
+    {
+        "Addition": 60,
+        "Subtraction": 50,
+        "Multiplication": 275,
+        "Division": 11.0
+    }
+][
+    {
+        "Addition": 2,
+        "Subtraction": 0,
+        "Multiplication": 1,
+        "Division": 1.0
+    }
+][
+    {
+        "Addition": 2,
+        "Subtraction": 0,
+        "Multiplication": 1,
+        "Division": 1.0
+    }
+][
+    {
+        "Addition": 4,
+        "Subtraction": 0,
+        "Multiplication": 4,
+        "Division": 1.0
+    }
+][
+    {
+        "Addition": 6,
+        "Subtraction": 0,
+        "Multiplication": 9,
+        "Division": 1.0
+    }
+]{
+    "Addition": 5,
+    "Subtraction": -3,
+    "Multiplication": 4,
+    "Division": 0.25
+}{
+    "Addition": 11,
+    "Subtraction": -1,
+    "Multiplication": 30,
+    "Division": 0.8333333333333334
+}{
+    "Addition": 11,
+    "Subtraction": 1,
+    "Multiplication": 30,
+    "Division": 1.2
+}
