@@ -5,12 +5,12 @@ from contextlib import closing
 def create_table():
     with closing(sqlite3.connect("data.db")) as connection:
         with closing(connection.cursor()) as cursor:
-            cursor.execute("CREATE TABLE operations_table (id INTEGER PRIMARY KEY, fnum INTEGER, snum INTEGER, sum INTEGER, sub INTEGER);")
+            cursor.execute("CREATE TABLE operations_table (id INTEGER PRIMARY KEY, fnum INTEGER, snum INTEGER, sum INTEGER, sub INTEGER, mult INTEGER, div INTEGER);")
             connection.commit()
 def insert():
     with closing(sqlite3.connect("data.db")) as connection:
         with closing(connection.cursor()) as cursor:
-            cursor.execute(f"INSERT INTO operations_table (fnum, snum, sum, sub) VALUES ('{number1}', '{number2}', '{sum}', '{sub}');")
+            cursor.execute(f"INSERT INTO operations_table (fnum, snum, sum, sub, mult, div) VALUES ('{number1}', '{number2}', '{sum}', '{sub}', '{mult}', '{div}');")
             connection.commit()
 
 def show():
@@ -32,9 +32,16 @@ for index in range (0, 3):
     print (sum)
     print (f"Total Operations : {CalculatorObject.op_count}")
 
-
     sub = CalculatorObject.sub ()
     print (sub)
+    print (f"Total Operations : {CalculatorObject.op_count}")
+
+    mult = CalculatorObject.mult ()
+    print (mult)
+    print (f"Total Operations : {CalculatorObject.op_count}")
+
+    div = CalculatorObject.div ()
+    print (div)
     print (f"Total Operations : {CalculatorObject.op_count}")
 
     insert()

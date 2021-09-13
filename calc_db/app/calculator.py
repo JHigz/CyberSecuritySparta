@@ -16,3 +16,11 @@ class CalculatorClass:
     def sub(self):
         self.add_op ()
         return self.num1 - self.num2
+
+    def mult(self):
+        self.add_op ()
+        return self.num1 * self.num2
+
+    def div(self):
+        self.add_op ()
+        return self.num1 / self.num2
